@@ -1,0 +1,21 @@
+[22,27,16,2,18,6] -- Insertion Sort'a göre sıralama yapalım. İlk önce en küçük sayı seçilir. (2)
+2 sayısı 22 ile yer değiştirir. (2,27,16,22,18,6) 
+Diğer en küçük sayı olan 6 - 27 ile yer değiştirir. (2,6,16,22,18,27)
+Daha sonra diğer sayı olan 16'ya bakılır ama yer olarak doğru konumdadır.
+Bir diğer aşamada 18 sayısına bakılır. 22 ile yer değiştirir. (2,6,16,18,22,27)
+22 sayısına bakılır ama konum olarak doğru yerdedir. 
+27 sayısı da konum olarak doğrudur. 
+Sıralamanın en son hali şu şekildedir. (2,6,16,18,22,27)
+Big-O gösterimi = O(n²)
+18 sayısı ortada olduğundan dolayı Average Case'dir.
+
+[7,3,5,8,2,9,4,15,6] dizisinin ilk dört adımı şu şekildedir.
+En küçük sayı olan 2 seçilir. 7 sayısı ile yer değiştirir.
+(2,3,5,8,7,9,4,15,6)
+Diğer en küçük sayı olan 3 seçilir. Konumu doğru olduğundan dolayı diğer en küçük sayıya geçilir.
+Diğer küçük sayı 4 seçilir. 5 ile yer değiştirir.
+(2,3,4,8,7,9,5,15,6)
+Diğer küçük sayı olan 5 seçilir. 8 sayısı ile yer değiştirir.
+(2,3,4,5,7,9,8,15,6,) İlk dört adımı bu şekildedir.
+Diğer adımlar yapıldıktan sonra son hali şu şekildedir. 
+(2,3,4,5,6,7,8,9,15)
