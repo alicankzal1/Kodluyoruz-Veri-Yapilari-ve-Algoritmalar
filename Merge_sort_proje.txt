@@ -1,0 +1,7 @@
+[16,21,11,8,12,22] => eşit iki parçaya böleriz.
+[16,21,11] ve [8,12,22] => daha sonra elemanlar tek kalacak şekilde tekrar böleriz.
+[16] - [21] - [11] -- [8] - [12] - [22] => bu adımdan sonra sıralamaya başlarız.
+[16], [11,21] -- [8,12], [22]
+[11,16,21], [8,12,22] => bütün dizeyi sıralarız
+[8,11,12,16,21,22] sıralama tamamlandı.
+Big-O = O(nlogn)
